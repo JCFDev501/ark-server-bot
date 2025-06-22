@@ -3,7 +3,7 @@ import discord
 import requests
 from discord.ext import commands
 from discord.ext.commands import has_role, CheckFailure
-from dotenv import load_dotenv # test
+from dotenv import load_dotenv
 
 # Load secrets from .env
 load_dotenv()
@@ -19,7 +19,7 @@ HEADERS = {
 }
 
 # Change this to match your server's admin role name
-REQUIRED_ROLE = "admin"
+REQUIRED_ROLE = "Ark"
 
 # Enable message content intent
 intents = discord.Intents.default()
